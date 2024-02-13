@@ -31,6 +31,7 @@ const [isFollowing, setIsFollowing]= useState (initialIsFollowing)
       <aside>
         <button className={buttonClassName}onClick={handleclik}>
           {text}
+          <span className='tw-followCard-stopFollow'>Dejar de seguir</span>
         </button>
       </aside>
     </article>
